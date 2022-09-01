@@ -49,8 +49,20 @@ String no = request.getParameter("no");
 		</tr>
 	</table>
 	<p>
-		<input type="submit" value="変更">
-		<input type="submit" value="削除">
-		<input type="button" value="戻る">
+	<div class="form_button">
+		<%
+		if (no.equals("2")) {
+		%>
+		<form action="/ServletStudy/web/sjp/ichiran.jsp" method="GET">
+			<input type="submit" value="変更">
+		</form>
+		<form action="/" method="GET">
+			<input type="submit" value="削除">
+		</form>
+		<%}%>
+		<form action="menu.jsp" method="GET">
+			<input type="submit" value="戻る">
+		</form>
+	</div>
 </body>
 </html>
