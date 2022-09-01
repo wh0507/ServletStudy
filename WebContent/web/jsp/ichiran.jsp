@@ -49,6 +49,8 @@ String no = request.getParameter("no");
 		</tr>
 	</table>
 	<p>
+		<input type="submit" value="変更">
+		<input type="submit" value="削除">
 		<input type="button" value="戻る">
 </body>
 </html>

@@ -9,10 +9,14 @@
 </head>
 <body>
 	<h1>商品登録</h1>
-	<p>以下の商品を登録します。<br>
-	ＩＤ：　<input type="text"><br>
-	商品名：<input type="text"><br>
-	価格：　<input type="text">円<p>
+	<p>
+		以下の商品を登録します。 <br>
+	<form action="" method="get">
+		ＩＤ：<input type="text" name="id"><br>
+		商品名：<input type="text" name="item"><br>
+		価格：<input type="text" name="cost">円<br>
+	</form>
+	<br>
 	<input type="submit" value="登録">
 	<input type="submit" value="戻る">
 </body>
