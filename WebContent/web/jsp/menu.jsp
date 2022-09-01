@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +10,7 @@
 <body>
 	<h1>商品マスタメンテナンスメニュー</h1>
 	<a href="../jsp/ichiran.jsp?no=1">商品一覧</a><br>
-	<a href="">商品登録</a><br>
+	<a href="../jsp/ichiran.jsp?no=3">商品登録</a><br>
 	<a href="../jsp/ichiran.jsp?no=2">商品変更・削除</a>
 </body>
 </html>

@@ -12,12 +12,12 @@ import javax.servlet.http.HttpServletResponse;
 public class NockWebServlet extends HttpServlet{
 
 	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		request.setCharacterEncoding("UTF-8");
-
-		String no = request.getParameter("1");
+//		RequestDispatcher dispatcher =
+//				request.getRequestDispatcher("/web/jsp/menu.jsp");
+//		dispatcher.forward(request, response);
 
 	}
 }
